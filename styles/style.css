@@ -1,0 +1,41 @@
+body {
+    font-family: Helvetica;
+    background: black;
+    color: #222;
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/314556/nightSky.jpg") center center repeat;;
+
+}
+
+.logo{ 
+    width: 90%;
+    height: 30%;
+    display: block;
+    margin: 0 auto; 
+    padding-top: 1em;
+
+}
+
+.clock {
+    position: absolute;
+    margin: 0 auto; 
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 30px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+
+.sun{
+position: absolute;
+margin: 0 auto; 
+}
+
+.moon{
+position: absolute;
+margin: 0 auto; 
+}
+
+

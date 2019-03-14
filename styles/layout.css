@@ -1,0 +1,93 @@
+/*mobiel*/
+
+#container{
+	width: 100%;
+	margin: auto 0;
+	
+}
+
+#container2{
+	width: 100%;
+	margin: auto 0;
+}
+
+ .sun{
+  margin-left: -200px;
+  width: 50%;
+  padding-top: 4em;
+  }
+
+  .moon{
+  margin-left: -280px;
+  width: 50%;
+  padding: 4em;
+  }
+
+/*Ipad*/
+@media only screen and (min-width: 601px){
+
+.clock {
+    position: absolute;
+    margin: 0 auto; 
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 50px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+.sun{
+	padding-top: 4em;
+}
+
+.moon{
+	padding-top: 4em;
+}
+
+
+/*Laptop*/
+@media only screen and (min-width: 1025px){
+
+.logo{
+	width: 50%;
+}
+
+.sun{
+	width: 30%;
+}
+
+.moon{
+	width: 20%;
+}
+
+}
+
+/*Grote desktop*/
+@media only screen and (min-width: 1281px){
+.clock {
+    position: absolute;
+    margin: 0 auto; 
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 50px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+
+.logo{
+	width: 50%;
+}
+
+.sun{
+	padding-top: 4em;
+	width: 20%;
+}
+
+.moon{
+	padding-top: 4em;
+	width: 20%;
+}
